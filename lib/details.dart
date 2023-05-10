@@ -30,7 +30,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
               padding: EdgeInsets.only(
-                top: 34,
+                top: 50,
               ),
               child: Text("نموذج عنوان منتج سبراى 600 مل مع توفير1%  منتج حصرى",
                   style: TextStyle(
@@ -41,7 +41,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             Padding(
               padding: const EdgeInsetsDirectional.only(
-                top: 20,
+                top: 50,
               ),
               child: Container(
                 width: double.infinity,
@@ -66,7 +66,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             Padding(
               padding: const EdgeInsetsDirectional.only(
-                top: 20,
+                top: 50,
               ),
               child: Container(
                 height: 2,
@@ -76,7 +76,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
               padding: EdgeInsetsDirectional.only(
-                top: 20,
+                top: 50,
               ),
               child: Align(
                 alignment: Alignment.centerRight,
@@ -88,7 +88,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
                 padding: EdgeInsetsDirectional.only(
-                  top: 20,
+                  top: 50,
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
@@ -100,7 +100,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                 )),
             Padding(
               padding: const EdgeInsetsDirectional.only(
-                top: 30,
+                top: 50,
               ),
               child: Container(
                 height: 2,
@@ -110,7 +110,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
               padding: EdgeInsetsDirectional.only(
-                top: 20,
+                top: 50,
               ),
               child: Align(
                 alignment: Alignment.centerRight,
@@ -123,7 +123,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
                 padding: EdgeInsetsDirectional.only(
-                  top: 20,
+                  top: 50,
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
@@ -135,7 +135,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                 )),
             Padding(
               padding: const EdgeInsetsDirectional.only(
-                top: 30,
+                top: 50,
               ),
               child: Container(
                 height: 2,
@@ -145,7 +145,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
               padding: EdgeInsetsDirectional.only(
-                top: 20,
+                top: 50,
               ),
               child: Align(
                 alignment: Alignment.centerRight,
@@ -158,7 +158,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
                 padding: EdgeInsetsDirectional.only(
-                  top: 20,
+                  top: 50,
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
@@ -170,7 +170,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                 )),
             Padding(
               padding: const EdgeInsetsDirectional.only(
-                top: 30,
+                top: 50,
               ),
               child: Container(
                 height: 2,
@@ -180,7 +180,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
               padding: EdgeInsetsDirectional.only(
-                top: 20,
+                top: 50,
               ),
               child: Align(
                 alignment: Alignment.centerRight,
@@ -193,7 +193,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             ),
             const Padding(
                 padding: EdgeInsetsDirectional.only(
-                  top: 20,
+                  top: 50,
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
