@@ -32,12 +32,16 @@ class _Details_ScreenState extends State<Details_Screen> {
               padding: EdgeInsets.only(
                 top: 50,
               ),
-              child: Text("نموذج عنوان منتج سبراى 600 مل مع توفير1%  منتج حصرى",
-                  style: TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  textDirection: TextDirection.rtl),
+              child: Padding(
+                padding: EdgeInsets.only(right: 20),
+                child:
+                    Text("نموذج عنوان منتج سبراى 600 مل مع توفير1%  منتج حصرى",
+                        style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textDirection: TextDirection.rtl),
+              ),
             ),
             Padding(
               padding: const EdgeInsetsDirectional.only(
@@ -80,9 +84,12 @@ class _Details_ScreenState extends State<Details_Screen> {
               ),
               child: Align(
                 alignment: Alignment.centerRight,
-                child: Text(
-                  "تفاصيل المنتج ",
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                child: Padding(
+                  padding: EdgeInsets.only(right: 20),
+                  child: Text(
+                    "تفاصيل المنتج ",
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
             ),
@@ -92,10 +99,14 @@ class _Details_ScreenState extends State<Details_Screen> {
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
-                  child: Text(
-                    "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    textDirection: TextDirection.rtl,
+                  child: Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Text(
+                      "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      textDirection: TextDirection.rtl,
+                    ),
                   ),
                 )),
             Padding(
@@ -114,10 +125,13 @@ class _Details_ScreenState extends State<Details_Screen> {
               ),
               child: Align(
                 alignment: Alignment.centerRight,
-                child: Text(
-                  "الماده الفاعله ",
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                  textDirection: TextDirection.rtl,
+                child: Padding(
+                  padding: EdgeInsets.only(right: 20),
+                  child: Text(
+                    "الماده الفاعله ",
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    textDirection: TextDirection.rtl,
+                  ),
                 ),
               ),
             ),
@@ -127,10 +141,14 @@ class _Details_ScreenState extends State<Details_Screen> {
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
-                  child: Text(
-                    "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    textDirection: TextDirection.rtl,
+                  child: Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Text(
+                      "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      textDirection: TextDirection.rtl,
+                    ),
                   ),
                 )),
             Padding(
@@ -149,10 +167,13 @@ class _Details_ScreenState extends State<Details_Screen> {
               ),
               child: Align(
                 alignment: Alignment.centerRight,
-                child: Text(
-                  "الاستخدام",
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                  textDirection: TextDirection.rtl,
+                child: Padding(
+                  padding: EdgeInsets.only(right: 20),
+                  child: Text(
+                    "الاستخدام",
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    textDirection: TextDirection.rtl,
+                  ),
                 ),
               ),
             ),
@@ -162,10 +183,14 @@ class _Details_ScreenState extends State<Details_Screen> {
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
-                  child: Text(
-                    "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    textDirection: TextDirection.rtl,
+                  child: Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Text(
+                      "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      textDirection: TextDirection.rtl,
+                    ),
                   ),
                 )),
             Padding(
@@ -184,10 +209,13 @@ class _Details_ScreenState extends State<Details_Screen> {
               ),
               child: Align(
                 alignment: Alignment.centerRight,
-                child: Text(
-                  "الا ثار الجانبيه",
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                  textDirection: TextDirection.rtl,
+                child: Padding(
+                  padding: EdgeInsets.only(right: 20),
+                  child: Text(
+                    "الا ثار الجانبيه",
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    textDirection: TextDirection.rtl,
+                  ),
                 ),
               ),
             ),
@@ -197,10 +225,14 @@ class _Details_ScreenState extends State<Details_Screen> {
                 ),
                 child: Align(
                   alignment: Alignment.centerRight,
-                  child: Text(
-                    "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    textDirection: TextDirection.rtl,
+                  child: Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Text(
+                      "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      textDirection: TextDirection.rtl,
+                    ),
                   ),
                 )),
           ], // Biggest column
