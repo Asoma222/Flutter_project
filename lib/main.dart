@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'HOME.dart';
 import 'details.dart';
 
 void main() {
@@ -27,7 +28,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Details_Screen(),
+      home: HOME(
+        duration: 5,
+      ),
     );
   }
 }
