@@ -29,6 +29,9 @@ class _Home_State extends State<Home_> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset("images/دواء.jpeg", width: 200),
+              SizedBox(
+                height: 50,
+              ),
               _isIndicatorActive
                   ? Center(
                       child: CircularProgressIndicator(),
