@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/details.dart';
 import 'LoadPage.dart';
 
 class Home_ extends StatefulWidget {
@@ -36,7 +37,21 @@ class _Home_State extends State<Home_> {
                   ? Center(
                       child: CircularProgressIndicator(),
                     )
-                  : Text("hi osama")
+                  : GestureDetector(
+                      child: Container(
+                          color: Colors.green,
+                          child: Container(
+                              padding: EdgeInsets.symmetric(
+                                  horizontal: 50, vertical: 20),
+                              child: Text("home page"))),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Details_Screen()),
+                        );
+                      },
+                    )
             ]),
       ),
     );
