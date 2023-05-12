@@ -16,8 +16,8 @@ class _Home_State extends State<Home_> {
     Future.delayed(Duration(seconds: 5), () {
       setState(() {
         _isIndicatorActive = false;
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => Details_Screen()));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => Details_Screen(7)));
       });
     });
   }
