@@ -17,7 +17,7 @@ class _Home_State extends State<Home_> {
       setState(() {
         _isIndicatorActive = false;
         Navigator.push(context,
-            MaterialPageRoute(builder: (context) => Details_Screen(7)));
+            MaterialPageRoute(builder: (context) => Details_Screen(8)));
       });
     });
   }
