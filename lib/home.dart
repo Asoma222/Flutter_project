@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project/details.dart';
-import 'LoadPage.dart';
+import 'package:project/LoadPage.dart';
 
 class Home_ extends StatefulWidget {
   const Home_({super.key});
